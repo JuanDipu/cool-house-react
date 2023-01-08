@@ -1,0 +1,44 @@
+.barra {
+  padding-top: 60.5px;
+  padding-bottom: 60.5px;
+  text-align: center;
+  border-bottom-style: inset;
+  border-bottom-color: black;
+  background-color: rgb(166, 107, 240);
+  font-family: helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  column-gap: 5px;
+  justify-content: space-between;
+  text-align: none;
+  border-width: thin;
+}
+
+.deli {
+  padding-right: 35px;
+  padding-left: 35px;
+  border-right-color: black;
+  border-right-style: inset;
+  border-width: thin;
+}
+
+.delis {
+  padding-right: 35px;
+  padding-left: 35px;
+  border-top: 20px;
+  border-bottom: 20px;
+  border-width: thin;
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
