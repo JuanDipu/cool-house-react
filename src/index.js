@@ -6,6 +6,7 @@ import App from "./App";
 import Contacto from "./components/contacto/contacto";
 import reportWebVitals from "./reportWebVitals";
 import Navbar from "./components/navbar/Navbar";
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -14,7 +15,7 @@ root.render(
     <Router>
       <Navbar />
       <Switch>
-        <Route exact path="/" component={App}></Route>
+        <Route exact path="/" component={Contacto}></Route>
         <Route exact path="/contacto" component={Contacto}></Route>
       </Switch>
     </Router>

@@ -1,0 +1,132 @@
+.tit-principal {
+  color: rgb(9, 98, 102);
+}
+
+.love {
+  color: purple;
+}
+
+.met {
+  color: black;
+}
+
+.contact {
+  background-color: rgb(6, 154, 161);
+}
+
+.inicio {
+  background-color: rgb(168, 148, 198);
+}
+
+.program {
+  background-color: rgb(151, 151, 24);
+}
+
+.method {
+  background-color: rgb(242, 191, 94);
+  text-align: center;
+}
+
+.tit {
+  color: rgb(29, 30, 33);
+  font-family: sans-serif;
+  font: bold;
+  font-size: 64px;
+  font-style: normal;
+}
+
+.frase {
+  color: rgb(29, 30, 33);
+  font-family: sans-serif;
+  font-size: 24px;
+  font-style: normal;
+}
+.cursos {
+  text-align: center;
+  column-count: 2;
+}
+
+.barra {
+  padding-top: 60.5px;
+  padding-bottom: 60.5px;
+  text-align: center;
+  border-bottom-style: inset;
+  border-bottom-color: black;
+  background-color: rgb(166, 107, 240);
+  font-family: helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  column-gap: 5px;
+  justify-content: space-between;
+  text-align: none;
+  border-width: thin;
+}
+
+.piso {
+  padding-top: 80.5px;
+  padding-bottom: 80.5px;
+  background-color: rgb(0, 46, 93);
+  height: 100%;
+  color: white;
+}
+
+.deli {
+  padding-right: 35px;
+  padding-left: 35px;
+  border-right-color: black;
+  border-right-style: inset;
+  border-width: thin;
+}
+
+.delis {
+  padding-right: 35px;
+  padding-left: 35px;
+  border-top: 20px;
+  border-bottom: 20px;
+  border-width: thin;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  min-height: 100%;
+}
+
+.contenido {
+  text-align: center;
+  background-color: rgb(6, 154, 161);
+}
+
+.cuadros {
+  padding: black;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+.subcuadros {
+  padding: black;
+  width: 35%;
+  padding: 7px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(119, 120, 122);
+  border-radius: 4px;
+}
